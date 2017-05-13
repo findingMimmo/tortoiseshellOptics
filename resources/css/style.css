@@ -1,0 +1,146 @@
+html,
+body,
+a,
+p {
+  font-size: 18px;
+  line-height: 1.4;
+  color: black;
+  font-family: "Helvetica", sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 15;
+}
+
+.logo img {
+  margin-left: 2rem;
+  height: 1.5rem;
+}
+
+.logo h1 {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+.banner {
+  padding-top: 1rem;
+}
+#banner {
+  background-color: cadetblue;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+nav a {
+  padding-right: 2rem;
+}
+
+.jumbotron {
+  background-image: url('../img/banner.png');
+  height: 31rem;
+  background-size: cover;
+}
+
+#box1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box1 {
+  margin-right: -2rem;
+  margin-top: 10rem;
+  background-color: white;
+}
+
+.box1 h2 {
+  padding: 1.5rem 5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+
+}
+
+
+/* main body */
+.main {
+  margin: 0 auto 5rem;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service {
+
+}
+
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+  flex-direction: column;
+}
+
+#paper img {
+  width: 3.5rem;
+}
+
+#ruler img {
+  width: 5rem;
+}
+
+#truck img{
+  width: 100%;
+}
+
+#service {
+  align-items: flex-start;
+}
+
+.box2 {
+  width: 35%;
+  padding-left: 5%;
+}
+
+.box2 h3 {
+  background-color: cadetblue;
+  color: white;
+  padding-left: 1.25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 10rem;
+}
+
+footer #footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+#footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
