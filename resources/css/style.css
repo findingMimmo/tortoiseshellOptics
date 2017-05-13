@@ -53,6 +53,10 @@ nav a {
   padding-right: 2rem;
 }
 
+#menu2 {
+  display: none;
+}
+
 .jumbotron {
   background-image: url('../img/banner.png');
   height: 31rem;
@@ -86,10 +90,6 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.service {
-
 }
 
 .service {
@@ -143,4 +143,118 @@ footer #footer {
 #footer img {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
+}
+/* media query @ 980*/
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  .banner {
+    padding-top: 0;
+  }
+  .box1 {
+    margin-right: 2rem;
+    margin-top: 5rem;
+    background-color: white;
+  }
+
+  .box1 h2 {
+    padding: .75rem 4rem;
+    font-size: 1.33rem;
+    line-height: 1.2;
+  }
+  .jumbotron {
+    height: 22rem;
+  }
+}
+/* media query @ 980*/
+@media only screen and (max-width: 980px) {
+  .logo h1 {
+    display: none;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #menu2 {
+    display: block;
+  }
+
+  .box1 {
+    width: 100%;
+    margin-top: 9rem;
+    background-color: white;
+    margin-right: 0;
+  }
+
+  .box1 h2 {
+    padding: 1rem 4rem;
+    font-size: 1rem;
+  }
+
+  .jumbotron {
+    height: 17rem;
+  }
+
+  .main {
+    margin: 3rem auto;
+  }
+  .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 5rem;
+    margin: .77rem;
+    flex-direction: column;
+  }
+
+  #service {
+    align-items: center;
+  }
+
+  .title {
+    width: 100%;
+    background-color: cadetblue;
+    text-align: center;
+  }
+  .box2 {
+    width: 100%;
+    padding-bottom: 4rem;
+    padding-left: 0;
+  }
+
+  .box2 p {
+    font-size: .77rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .box2 h3 {
+    background-color: cadetblue;
+    color: white;
+    padding-left: 1.25rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 10rem;
+  }
+  #footer p {
+    display: none;
+  }
+  #footer {
+    justify-content: center;
+  }
+  #footer img {
+    padding: 4rem;
+  }
 }
